@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="mynewindex.css">
+<!--===============================================================================================-->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<img src = "images/img-01.png" width="100" height="100" style="position:absolute; TOP:45px;LEFT:210px;">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="images/img-01.png" alt="IMG">
+				</div>
+
+				<form class="login100-form validate-form">
+					<span style="margin-left:0em" class="login100-form-title">
+						Student Login
+					</span>
+
+					<div style="margin-left: 3em" class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i style="margin-left: -2.1em" class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div style="margin-left: 3em" class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" name="pass" placeholder="Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i style="margin-left: -2em" class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+					<div style="margin-left: 6em" class="container-login100-form-btn">
+						<button style="width: 500px "" class="login100-form-btn">
+							Login
+						</button>
+					</div>
+
+					<div style="margin-top:1.0em" class="text-center p-t-12">
+						
+						<a style="margin-left: 11em" class="txt2" href="#">
+							Forgot Password?
+						</a>
+					</div>
+						<br>
+					<div style="margin-left: 3em;line-height : 20px" class="text-center p-t-136">
+							<p style="line-height : 45px;font-size : 20px;">you don't have account? </p>
+						<a class="txt2" href="#">
+							<strong ><font style="margin-left: -3em;font-size : 17px;" color="red">Register your account</font></strong>
+						</a>
+						<br><br>
+					</div>
+			            <div style="position:absolute; TOP:710px;LEFT:550px; " class="container">
+			                <div class="navbar-header">
+			                    <a style="margin-left:-20em" class="navbar-brand" href="#">gcek.gov.in</a>
+			                </div>
+			                <div>
+			                    <ul  class="nav navbar-nav">
+			                        <li><a style="margin-left:-15.0em;background-color: white" href="#">Home</a></li>
+			                        <li><a style="margin-left:-8.0em;background-color: white" href="#">About</a></li>
+			                        <li ><a style="margin-left:-2.0em;background-color: white"  href="#">Products</a>
+			                        <li>
+			                            <a style="margin-left:-1.0em;background-color: white"  href="#"> want help???  </a>
+			                        </li>
+			                        <li><a style="margin-left:-1.0em;background-color: white" href="#"> Contact </a> </li>
+			                        <li style="margin-left:2em">
+			                             <div class="col-12 col-md-10 col-lg-8">
+			                                <form style="margin-top:0.1em" class="card card-sm">
+			                                    <div class="card-body row no-gutters align-items-center">
+			                                        <!--end of col-->
+			                                        <div style="margin-top:1em" class="col">
+			                                            <input style="position:absolute; TOP:11px;LEFT:-20px; width: 150px;" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+			                                        </div>
+			                                    </div>
+			                                </form>
+			                            </div>
+			                        </li>
+			                        <li style="position:absolute; TOP:11px;LEFT:420px; width: 100px;"><button style="color: white" class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="glyphicon glyphicon-search"></span>Search</button></li>
+			                        <li style="position:absolute;TOP:50px;LEFT:0px;">
+			                            <div><p style="color:black">created by <a style="color:#635555" href="www.google.com">Manobhav Joshi</a> </p></div>
+			                            <div><p style="color:black;margin-left: -0.6em; line-height: 0.3"> Student of GCE BHAWANIPATNA</p></div>
+			                        </li>
+			                    </ul>
+			                    
+			                </div>
+			            </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>
